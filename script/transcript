@@ -1,0 +1,131 @@
+# vsim -c tbench_top -L /CMC/tools/mentor/questasim_2020.1_1/questasim/uvm-1.2 "+UVM_TESTNAME=fifo_put_port4_with_read_test" 
+# Start time: 14:04:43 on Dec 12,2022
+# Loading /tmp/dtv782@engr-elec70-09L_dpi_963405/linux_x86_64_gcc-7.4.0/export_tramp.so
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2020.1_1 linux_x86_64 Mar  4 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.upstream_intf(fast)
+# Loading work.downstream_intf(fast)
+# Loading work.uvm_pkg(fast)
+# Loading work.xsw_transaction(fast)
+# Loading work.xsw_sequences(fast)
+# Loading work.xsw_object(fast)
+# Loading work.xsw_scoreboard(fast)
+# Loading work.xsw_monitor(fast)
+# Loading work.xsw_driver(fast)
+# Loading work.xsw_agent(fast)
+# Loading work.xsw_environment(fast)
+# Loading work.xsw_test_pkg(fast)
+# Loading /CMC/tools/mentor/questasim_2020.1_1/questasim/uvm-1.2.uvm_pkg(fast)
+# Loading /CMC/tools/mentor/questasim_2020.1_1/questasim/uvm-1.2.questa_uvm_pkg(fast)
+# Loading work.tbench_top(fast)
+# Loading work.dut_top(fast)
+# ** Warning: (vsim-3838) Variable '/tbench_top/d_intf/data_out' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See ../dut/dut_top.sv(15).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_top/d_intf File: ../verification/regression_test/xsw_interface.sv Line: 33
+# ** Warning: (vsim-3838) Variable '/tbench_top/d_intf/addr_out' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See ../dut/dut_top.sv(16).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_top/d_intf File: ../verification/regression_test/xsw_interface.sv Line: 33
+# ** Warning: (vsim-3838) Variable '/tbench_top/d_intf/fifo_ae' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See ../dut/dut_top.sv(19).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_top/d_intf File: ../verification/regression_test/xsw_interface.sv Line: 32
+# ** Warning: (vsim-3838) Variable '/tbench_top/d_intf/fifo_empty' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See ../dut/dut_top.sv(20).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_top/d_intf File: ../verification/regression_test/xsw_interface.sv Line: 32
+# ** Warning: (vsim-3838) Variable '/tbench_top/d_intf/fifo_full' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See ../dut/dut_top.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_top/d_intf File: ../verification/regression_test/xsw_interface.sv Line: 32
+# ** Warning: (vsim-3838) Variable '/tbench_top/d_intf/fifo_af' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See ../dut/dut_top.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_top/d_intf File: ../verification/regression_test/xsw_interface.sv Line: 32
+# ** Warning: (vsim-3838) Variable '/tbench_top/d_intf/data_rdy' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See ../dut/dut_top.sv(18).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_top/d_intf File: ../verification/regression_test/xsw_interface.sv Line: 32
+# ** Warning: (vsim-3838) Variable '/tbench_top/d_intf/data_rcv' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See ../dut/dut_top.sv(17).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_top/d_intf File: ../verification/regression_test/xsw_interface.sv Line: 32
+# Compiling /tmp/dtv782@engr-elec70-09L_dpi_963405/linux_x86_64_gcc-7.4.0/exportwrapper.c
+# Loading /tmp/dtv782@engr-elec70-09L_dpi_963405/linux_x86_64_gcc-7.4.0/vsim_auto_compile.so
+# Loading /CMC/tools/mentor/questasim_2020.1_1/questasim/uvm-1.2/linux_x86_64/uvm_dpi.so
+run -all
+# UVM_INFO /CMC/tools/mentor/questasim_2020.1_1/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# ----------------------------------------------------------------
+# UVM-1.2
+# (C) 2007-2014 Mentor Graphics Corporation
+# (C) 2007-2014 Cadence Design Systems, Inc.
+# (C) 2006-2014 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# (C) 2013-2014 NVIDIA Corporation
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# ----------------------------------------------------------------
+# UVM-1.2
+# (C) 2007-2014 Mentor Graphics Corporation
+# (C) 2007-2014 Cadence Design Systems, Inc.
+# (C) 2006-2014 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# (C) 2013-2014 NVIDIA Corporation
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test fifo_put_port4_with_read_test...
+# UVM_INFO ../verification/regression_test/xsw_test_pkg.sv(222) @ 2065: uvm_test_top [mg] 
+# [fifo_put_port4_with_read_test] finish fifo_put_port4_with_read_test check!!!******************
+# UVM_INFO /CMC/tools/mentor/questasim_2020.1_1/questasim/verilog_src/uvm-1.2/src/base/uvm_objection.svh(1270) @ 2065: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO /CMC/tools/mentor/questasim_2020.1_1/questasim/verilog_src/uvm-1.2/src/base/uvm_report_server.svh(847) @ 2065: reporter [UVM/REPORT/SERVER] 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    4
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVM/RELNOTES]     1
+# [mg]     1
+# 
+# ** Note: $finish    : /CMC/tools/mentor/questasim_2020.1_1/questasim/verilog_src/uvm-1.2/src/base/uvm_root.svh(517)
+#    Time: 2065 ns  Iteration: 83  Instance: /tbench_top
+# End time: 14:04:44 on Dec 12,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 8

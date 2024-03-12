@@ -1,0 +1,88 @@
+List of Design Features
+----------------------------------------
+ID:Design Feature
+----------------------------------------
+1: Addition: Add two 8-bits inputs  
+
+2: Subtraction: Subtract two 8-bits inputs
+
+3: Multiplication: Multiply TWO 8-bits inputs
+
+4: Division: Divide 2 8-bits inputs
+
+5: Shift_Left: shift 1 bit to the left for input alu_a_in.
+
+6: Shift_Right: shift 1 bit to the right for input alu_a_in
+
+7: Rotate_Left: shift 1 bit of input alu_a_in to the left of input alu_a_in and plus 1 if most signification bit of alu_a_in is 1
+
+8: rotate right: shift 1 bit of input alu_a_in to the right of input alu_a_in and plus 128 if least signification bit of alu_a_in is 1
+
+9: Logical AND: AND operation of 2 inputs alu_a_in and alu_b_in
+
+10: Logical OR: OR operation of 2 inputs alu_a_in and alu_b_in
+
+11: Logical XOR: XOR operation of 2 inputs alu_a_in and alu_b_in
+
+12: Logical NOR: NOR operation of 2 inputs alu_a_in and alu_b_in
+
+13: Logical NAND: NAND operation of 2 inputs alu_a_in and alu_b_in
+
+14: Logical XNOW: XNOR operation of 2 inputs alu_a_in and alu_b_in
+
+15: A>B: check if alu_a_in > alu_b_in
+
+16: A is equal to B: check if alu_a_in = alu_b_in
+
+
+List of Test cases
+----------------------------------------
+ID:Task	Description
+----------------------------------------
+
+1:alu_test
+check the connection of the test bench and dut, print out error if there is any
+
+2: alu_addition_test: Test if output = alu_a_in + alu_b_in and if alu_a_in + alu_b_in < 255
+
+3: alu_subtraction_test: Test if output = a - b and if a > b
+
+4: alu_multiplication_test: Test if output = alu_a_in * alu_b_in
+
+5: alu_division_test: Test if output = (alu_a_in \ alu_b_in)
+
+6: shift_left_test: Test if output = alu_a_in << 1 && 255 
+
+7: shift_right_test: Test if output = alu_a_in >> 1 && 255
+
+8: rotate_left_test: Test if output = alu_a_in << 1 if alu_a_in[7] = 0 otherwise output = (alu_a_in << 1) + 1
+
+9: rotate_right_test: Test if output = alu_a_in >> 1 if alu_a_in[0] = 0 otherwise output = (alu_a_in >> 1) + 128
+
+10: Logical_AND_test: Test if output  = alu_a_in &  alu_b_in
+
+11: Logical_OR_test: Test if output  = alu_a_in | alu_b_in
+
+12: Logical_XOR_test: Test if output  = ( alu_a_in ^  alu_b_in)
+
+13: Logical_Nor_test: Test if output  = ~( alu_a_in | alu_b_in)
+
+14: Logical_NAND_test: test if output  = ~( alu_a_in &  alu_b_in)
+
+15: Logical_XNOR_test: test if output  = ~( alu_a_in ^ alu_b_in)
+
+16: A_is_greater_B_test: test if output  = ( alu_a_in >  alu_b_in) = 1
+
+17: A_is_equal_B_test: test if output  = ( alu_a_in =  alu_b_in) = 1
+
+Embedded Bugs
+----------------------------------------
+ID:Description
+----------------------------------------
+1: In Logical XNOR.
+
+2: In Logical NOR.
+
+3. In Logical NAND.
+
+4. In Logical XNOR.

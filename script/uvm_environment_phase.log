@@ -1,0 +1,563 @@
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 15: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	00
+ 
+            	port_addr:	0000
+
+            	port_en:	0
+
+            	port_wr:	0
+
+            	addr_in:	0000000000000000
+
+            	data_in:	0000000000000000
+
+            	wr_en:	00
+
+            	rd_en:	00
+
+            output:
+
+            	addr_out:	0000000000000000
+
+            	data_out:	0000000000000000
+
+            	data_rdy:	00
+
+            	data_rcv:	00
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	ff
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 35: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	00
+ 
+            	port_addr:	0000
+
+            	port_en:	1
+
+            	port_wr:	1
+
+            	addr_in:	0000000000000000
+
+            	data_in:	0000000000000000
+
+            	wr_en:	00
+
+            	rd_en:	00
+
+            output:
+
+            	addr_out:	0000000000000000
+
+            	data_out:	0000000000000000
+
+            	data_rdy:	00
+
+            	data_rcv:	00
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	ff
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 55: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	01
+ 
+            	port_addr:	0001
+
+            	port_en:	1
+
+            	port_wr:	1
+
+            	addr_in:	0000000000000000
+
+            	data_in:	0000000000000000
+
+            	wr_en:	00
+
+            	rd_en:	00
+
+            output:
+
+            	addr_out:	0000000000000000
+
+            	data_out:	0000000000000000
+
+            	data_rdy:	00
+
+            	data_rcv:	00
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	ff
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 75: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	02
+ 
+            	port_addr:	0002
+
+            	port_en:	1
+
+            	port_wr:	1
+
+            	addr_in:	0000000000000000
+
+            	data_in:	0000000000000000
+
+            	wr_en:	00
+
+            	rd_en:	00
+
+            output:
+
+            	addr_out:	0000000000000000
+
+            	data_out:	0000000000000000
+
+            	data_rdy:	00
+
+            	data_rcv:	0f
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	ff
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 95: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	03
+ 
+            	port_addr:	0003
+
+            	port_en:	1
+
+            	port_wr:	1
+
+            	addr_in:	0000000000000000
+
+            	data_in:	0000000000000000
+
+            	wr_en:	00
+
+            	rd_en:	00
+
+            output:
+
+            	addr_out:	0000000000000000
+
+            	data_out:	0000000000000000
+
+            	data_rdy:	08
+
+            	data_rcv:	0f
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	77
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 115: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	00
+ 
+            	port_addr:	0000
+
+            	port_en:	0
+
+            	port_wr:	1
+
+            	addr_in:	0003000200010000
+
+            	data_in:	2b7f2c6eaf59d253
+
+            	wr_en:	08
+
+            	rd_en:	08
+
+            output:
+
+            	addr_out:	0003000000000000
+
+            	data_out:	2b7f000000000000
+
+            	data_rdy:	08
+
+            	data_rcv:	0f
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	77
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 135: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	00
+ 
+            	port_addr:	0000
+
+            	port_en:	0
+
+            	port_wr:	1
+
+            	addr_in:	0003000200010000
+
+            	data_in:	eadce6587605dc97
+
+            	wr_en:	08
+
+            	rd_en:	08
+
+            output:
+
+            	addr_out:	0003000000000000
+
+            	data_out:	eadc000000000000
+
+            	data_rdy:	08
+
+            	data_rcv:	0f
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	77
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 155: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	00
+ 
+            	port_addr:	0000
+
+            	port_en:	0
+
+            	port_wr:	0
+
+            	addr_in:	0003000200010000
+
+            	data_in:	008affc5ae30e18d
+
+            	wr_en:	08
+
+            	rd_en:	08
+
+            output:
+
+            	addr_out:	0003000000000000
+
+            	data_out:	008a000000000000
+
+            	data_rdy:	08
+
+            	data_rcv:	0f
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	77
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 175: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	00
+ 
+            	port_addr:	0000
+
+            	port_en:	1
+
+            	port_wr:	1
+
+            	addr_in:	0003000200010000
+
+            	data_in:	3999c56104618b86
+
+            	wr_en:	08
+
+            	rd_en:	08
+
+            output:
+
+            	addr_out:	0003000000000000
+
+            	data_out:	3999000000000000
+
+            	data_rdy:	08
+
+            	data_rcv:	0f
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	77
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 195: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	00
+ 
+            	port_addr:	0000
+
+            	port_en:	0
+
+            	port_wr:	1
+
+            	addr_in:	0003000200010000
+
+            	data_in:	d96fd8a10af3c9e7
+
+            	wr_en:	08
+
+            	rd_en:	08
+
+            output:
+
+            	addr_out:	0003000000000000
+
+            	data_out:	d96f000000000000
+
+            	data_rdy:	08
+
+            	data_rcv:	0f
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	77
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 215: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	00
+ 
+            	port_addr:	0000
+
+            	port_en:	1
+
+            	port_wr:	0
+
+            	addr_in:	0003000200010000
+
+            	data_in:	5ea590f3bc4be14f
+
+            	wr_en:	08
+
+            	rd_en:	08
+
+            output:
+
+            	addr_out:	0003000000000000
+
+            	data_out:	5ea5000000000000
+
+            	data_rdy:	08
+
+            	data_rcv:	0f
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	77
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 235: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	00
+ 
+            	port_addr:	0000
+
+            	port_en:	0
+
+            	port_wr:	1
+
+            	addr_in:	0003000200010000
+
+            	data_in:	5536b286e8683895
+
+            	wr_en:	08
+
+            	rd_en:	08
+
+            output:
+
+            	addr_out:	0003000000000000
+
+            	data_out:	5536000000000000
+
+            	data_rdy:	08
+
+            	data_rcv:	0f
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	77
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_scoreboard.sv(38) @ 255: uvm_test_top.env.subscriber [mg] 
+******Subscriber received tx downstream*******:
+ [************transaction**************]:
+ 
+            input:
+
+            	port_sel:	00
+ 
+            	port_addr:	0000
+
+            	port_en:	0
+
+            	port_wr:	1
+
+            	addr_in:	0003000200010000
+
+            	data_in:	a9259dc9fad56963
+
+            	wr_en:	08
+
+            	rd_en:	08
+
+            output:
+
+            	addr_out:	0003000000000000
+
+            	data_out:	a925000000000000
+
+            	data_rdy:	08
+
+            	data_rcv:	0f
+
+            	fifo_ae:	ff
+
+            	fifo_empty:	77
+
+            	fifo_full:	00
+
+            	fifo_af:	00
+
+
+            
+UVM_INFO ../verification/regression_test/xsw_test_pkg.sv(222) @ 265: uvm_test_top [mg] 
+[fifo_put_port4_with_read_test] finish fifo_put_port4_with_read_test check!!!******************
+UVM_INFO /CMC/tools/mentor/questasim_2020.1_1/questasim/verilog_src/uvm-1.2/src/base/uvm_objection.svh(1270) @ 265: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /CMC/tools/mentor/questasim_2020.1_1/questasim/verilog_src/uvm-1.2/src/base/uvm_report_server.svh(847) @ 265: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   17
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+[mg]    14
+

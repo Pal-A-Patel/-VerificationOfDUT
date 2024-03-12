@@ -1,0 +1,11 @@
+# vsim -c tbench_top -L /CMC/tools/mentor/questasim_2020.1_1/questasim/uvm-1.2 "+UVM_TESTNAME" -do "../../script/phase7_scoreboard.do" 
+# Start time: 20:16:06 on Jan 27,2023
+# Loading /tmp/zcx592@engr-tau-18L_dpi_90315/linux_x86_64_gcc-7.4.0/export_tramp.so
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** License Issue: License server does not support this feature (qhsimvl)
+# ** License Issue: No such feature exists. (/CMC/tools/licenses/mentor.license)
+# ** Error: Failure to obtain a Verilog simulation license. Unable to checkout any of these license features: 'qhsimvl' or 'msimhdlsim'.
+# Error loading design
+# End time: 20:16:13 on Jan 27,2023, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
